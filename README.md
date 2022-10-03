@@ -19,4 +19,4 @@ docker-comose up -d
 `localhost:4000/api/v1/video/download`
 - id - id операции;
 - user_id - id юзера;
-- mod - желаемый вариант смерживания (pip или sbs). pip - Pic in pic, sps - Side by side;
+- mod - желаемый вариант смерживания (pip или sbs). pip - картинка в картинке, sps - сторона к стороне;
