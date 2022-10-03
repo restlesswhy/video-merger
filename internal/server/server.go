@@ -49,8 +49,6 @@ func (s *server) Run() error {
 	})
 	s.fiber = f
 
-	// store := store.New(s.pool)
-	// app := app.New(store)
 	controller := v1.New(nil)
 	controller.SetupRoutes(s.fiber)
 
