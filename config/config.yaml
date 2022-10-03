@@ -1,0 +1,7 @@
+serviceName: video_merger
+http:
+  port: :8000
+logger:
+  level: debug
+  devMode: false
+  encoder: console
